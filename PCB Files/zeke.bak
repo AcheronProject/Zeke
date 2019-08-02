@@ -218,7 +218,7 @@ U 1 1 5D4DE5AB
 P 13275 12400
 F 0 "CU1" V 13100 12400 30  0000 C CNN
 F 1 "1uF" V 13150 12400 30  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13275 12400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13275 12400 50  0001 C CNN
 F 3 "~" H 13275 12400 50  0001 C CNN
 	1    13275 12400
 	0    1    1    0   
@@ -1947,7 +1947,7 @@ U 1 1 5DE3B869
 P 7700 9150
 F 0 "CUSB1" H 7850 9175 30  0000 C CNN
 F 1 "100nF" H 7850 9125 30  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7700 9150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7700 9150 50  0001 C CNN
 F 3 "~" H 7700 9150 50  0001 C CNN
 	1    7700 9150
 	0    -1   -1   0   
@@ -1957,7 +1957,7 @@ Wire Wire Line
 Wire Wire Line
 	7475 9125 7475 9150
 Text GLabel 7475 9125 1    50   Input ~ 0
-5V
+VBUS
 Wire Wire Line
 	6575 9575 6625 9575
 Text GLabel 6575 9575 0    50   Output ~ 0
@@ -3286,15 +3286,41 @@ F 3 "~" H 10550 2275 50  0001 C CNN
 	1    10550 2325
 	1    0    0    -1  
 $EndComp
+Text GLabel 9400 11175 1    50   Output ~ 0
+VBUS
+Wire Wire Line
+	9400 11175 9400 11250
 $Comp
-L Device:LED_BGRA RGB1
-U 1 1 5D483E49
+L acheronSymbols:LED_GBRA RGB1
+U 1 1 5D654323
 P 8600 2325
 F 0 "RGB1" H 8600 2822 50  0000 C CNN
 F 1 "E6C1209RGB" H 8600 2731 50  0000 C CNN
 F 2 "acheron_Components:E6C1209RGB" H 8600 2275 50  0001 C CNN
 F 3 "~" H 8600 2275 50  0001 C CNN
 	1    8600 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5D47814B
+P 3500 12250
+F 0 "L1" H 3600 12296 50  0000 L CNN
+F 1 "Zeke Logo" H 3600 12205 50  0000 L CNN
+F 2 "zekeGraphics:zekeLogo" H 3500 12250 50  0001 C CNN
+F 3 "~" H 3500 12250 50  0001 C CNN
+	1    3500 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L?
+U 1 1 5D4788D8
+P 3500 12500
+F 0 "L?" H 3600 12546 50  0000 L CNN
+F 1 "Acheron Short Logo" H 3600 12455 50  0000 L CNN
+F 2 "acheron_Logos:acheronShort_0.3x0.5in" H 3500 12500 50  0001 C CNN
+F 3 "~" H 3500 12500 50  0001 C CNN
+	1    3500 12500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

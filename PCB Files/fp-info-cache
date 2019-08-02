@@ -1,4 +1,4 @@
-15958498581931007
+15964758719123007
 acheron_Choc
 C100
 
@@ -300,8 +300,36 @@ acheronLongExtended
 0
 0
 0
+acheron_Logos
+acheronShort_0.3x0.5in
+
+
+0
+0
+0
+acheron_Logos
+acheronShort_0.3x0.5in_Plated
+
+
+0
+0
+0
 acheron_MountingHoles
-Mounting_Hole_2.5x04mm
+halfSideHole
+
+
+0
+1
+0
+acheron_MountingHoles
+MountingHole_2.5x4.0mm
+
+
+0
+1
+1
+acheron_MountingHoles
+MountingHole_2.5x5.0mm
 
 
 0
@@ -315,21 +343,21 @@ Mounting_Hole_Oval_2.5x8mm
 1
 1
 acheron_MountingHoles
-ovalHole
+MoutingHole_Oval_7mm_5.0x2.5mm
 
 
 0
 1
 1
 acheron_MountingHoles
-sideHole
+MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm
 
 
 0
 1
 1
 acheron_MountingHoles
-singleHole
+MoutingHole_Oval_Poker_7mm_5.0x2.5mm
 
 
 0

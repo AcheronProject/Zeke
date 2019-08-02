@@ -3301,4 +3301,26 @@ F 3 "~" H 8600 2275 50  0001 C CNN
 	1    8600 2325
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5D47814B
+P 3500 12250
+F 0 "L1" H 3600 12296 50  0000 L CNN
+F 1 "Zeke Logo" H 3600 12205 50  0000 L CNN
+F 2 "zekeGraphics:zekeLogo" H 3500 12250 50  0001 C CNN
+F 3 "~" H 3500 12250 50  0001 C CNN
+	1    3500 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L2
+U 1 1 5D4788D8
+P 3500 12500
+F 0 "L2" H 3600 12546 50  0000 L CNN
+F 1 "Acheron Short Logo Plated" H 3600 12455 50  0000 L CNN
+F 2 "acheron_Logos:acheronShort_0.3x0.5in_Plated" H 3500 12500 50  0001 C CNN
+F 3 "~" H 3500 12500 50  0001 C CNN
+	1    3500 12500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
